@@ -16,30 +16,39 @@
 
         <EditText
             android:id="@+id/txtusername"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:drawableStart="@drawable/baseline_person_24"
-            android:drawablePadding="10dp"
-            android:ems="10"
-            android:hint="Username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Phone number, username, or email"
             android:inputType="text"
+            android:background="@drawable/baseline_person_24"
+            android:paddingHorizontal="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:layout_marginBottom="16dp" />
+
 
         <EditText
             android:id="@+id/txtpassword"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
             android:hint="Password"
-            android:drawablePadding="10dp"
-            android:layout_marginBottom="30dp" />
+            android:inputType="textPassword"
+            android:background="@drawable/baseline_person_24"
+            android:paddingHorizontal="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_marginBottom="24dp" />
 
+        <!-- Login Button -->
         <Button
             android:id="@+id/login"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:text="Login" />
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:backgroundTint="#3897f0"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
 
     </LinearLayout>
 

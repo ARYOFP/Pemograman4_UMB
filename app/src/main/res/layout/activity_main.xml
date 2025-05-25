@@ -11,7 +11,7 @@
         android:layout_width="325dp"
         android:layout_height="119dp"
         android:gravity="center"
-        android:text="@string/firstproject"
+        android:text="ProjectUts"
         android:textAlignment="center"
         android:textSize="35dp"
         tools:layout_editor_absoluteX="25dp"
@@ -32,7 +32,7 @@
         android:ems="10"
         android:inputType="text"
         android:paddingTop="200dp"
-        android:text="@string/firstproject"
+        android:text="Project UTS"
         android:textAlignment="center"
         />
 
